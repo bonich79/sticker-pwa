@@ -1,20 +1,14 @@
 {
-  "name": "Sticker Maker",
+  "name": "Sticker Generator",
   "short_name": "Stickers",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#1a1a1a",
-  "icons": [
-    {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+  "description": "PWA for generating stickers",
+  "theme_color": "#317EFB",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
 }
